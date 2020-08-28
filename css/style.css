@@ -121,7 +121,8 @@ main {
 .shoe-gallary {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
- width: 90%
+ width: 100%;
+ gap: 2px;
 }
 .shoe-gallary img {
   width: 100%;
